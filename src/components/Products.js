@@ -11,8 +11,9 @@ import InputBase from '@material-ui/core/InputBase';
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    padding: theme.spacing(3),
+    padding: theme.spacing(2),
     backgroundColor: "#000000",
+   
   },
   search: {
     position: 'relative',
@@ -109,7 +110,9 @@ export default function Products(props) {
             </Grid>
             ))
         }
-      </Grid>   
-    </div>  
+      </Grid>
+      
+    </div>
+       
     );
 }

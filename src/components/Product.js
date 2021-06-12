@@ -19,6 +19,7 @@ import { useStateValue } from '../StateProvider';
 const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 345,
+  
   },
   action: {
     marginTop: "1rem",
@@ -78,13 +79,14 @@ export default function Product({product:{id, name, productType,image, price, ra
         action={
           <Typography
           className={classes.action}
-          variant='h5'
+          variant='h6'
           color='textSecondary'>
           {accounting.formatMoney(price)}
+          &nbsp; MXN
           </Typography>
         }
         title={name}
-        subheader="in stock"
+        subheader="Disponible"
       />
       <CardMedia
         className={classes.media}

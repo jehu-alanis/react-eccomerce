@@ -4,7 +4,7 @@ let id = 1;
 const products =[
     {
         id: id++,
-        name: "Audi CAT Azul",
+        name: "Audifonos CAT Azul",
         productType: "Audifonos",
         price: 600,
         rating:5,
@@ -18,7 +18,7 @@ const products =[
         price: 850,
         rating:5,
         image: "https://i.ibb.co/k2SzTQT/controlxbox.jpg",
-        description:"Control de xbox one wireless"
+        description:"Control de xbox one wireless generico"
     },
     {
         id: id++,
@@ -44,12 +44,12 @@ const products =[
         productType: "Camara",
         price: 800,
         rating:5,
-        image:"https://i.ibb.co/pfPXFd8/camarasdesegu.jpg",
+        image:"https://i.ibb.co/p3rs0S6/camarasdesegu.jpg",
         description:"Camara de seguridad WiFI "
     },
     {
         id: id++,
-        name: "Teclado",
+        name: "Teclado Gamer",
         productType: "Teclado",
         price: 500,
         rating:5,
@@ -59,7 +59,7 @@ const products =[
     {
        
         id: id++,
-        name: "Bluetooth para estereo",
+        name: "Adaptador Bluetooth para estereo",
         productType: "Accesorios",
         price: 100,
         rating:5,
@@ -72,7 +72,7 @@ const products =[
         productType: "Cable",
         price: 60,
         rating:5,
-        image:"https://i.ibb.co/cY7ChHH/cable-tipoc.jpg",
+        image:"https://i.ibb.co/jzzh1Nk/cable-tipoc.jpg",
         description:"Cargador para celular tipo C"
     },
     {
@@ -81,7 +81,7 @@ const products =[
         productType: "Cable",
         price: 30,
         rating:5,
-        image:"https://i.ibb.co/GVGf4P5/Cablessimple.png",
+        image:"https://i.ibb.co/M841Sgx/cable-v8.jpg",
         description:"Cargador para celular tipo USB V8"
     },
     {
@@ -99,8 +99,8 @@ const products =[
         productType: "Control",
         price: 750,
         rating:5,
-        image:"https://i.ibb.co/b6D8Jb0/control-xbox-inalambrico.jpg",
-        description:"Control inalambrico xbox 360"
+        image:"https://i.ibb.co/Dp7qpps/control-xbox-inalambrico.jpg",
+        description:"Control inalambrico xbox 360 Generico"
     },
     {
         id: id++,
@@ -108,34 +108,34 @@ const products =[
         productType: "Audifonos",
         price: 385,
         rating:5,
-        image:"https://i.ibb.co/2MRZ7cW/daidema-led.jpg",
+        image:"https://i.ibb.co/6wSWqyb/daidema-led.jpg",
         description:"Audifono Bluetooth Led"
     },
     {
         id: id++,
-        name: "Audi CAT Rosa",
+        name: "Audifonos CAT Rosa",
         productType: "Audifonos",
         price: 500,
         rating: 5,
-        image:"https://i.ibb.co/2kxHbbT/diadema-gatorosa.jpg",
+        image:"https://i.ibb.co/X3fKKvY/diadema-gatorosa.jpg",
         description:"Audifono Bluetooth Led con orejas de gato color Rosa"
     },
     {
         id: id++,
-        name: "Funko Big 6",
+        name: "Funko Pop Big 6",
         productType: "Funko",
-        price: 500,
+        price: 1000,
         rating: 5,
-        image:"https://i.ibb.co/jHV8bcM/funko.jpg",
+        image:"https://i.ibb.co/2gKpfGy/funko.jpg",
         description:"Funko Big Hero 6"
     },
     {
         id: id++,
-        name: "Funko Big 6",
+        name: "Funko Pop Big 6",
         productType: "Funko",
-        price: 500,
+        price: 1000,
         rating: 5,
-        image:"https://i.ibb.co/f0SfWrz/funko2.jpg",
+        image:"https://i.ibb.co/x5FhCDP/funko2.jpg",
         description:"Funko Big Hero 6 Armadura Rojo"
     },
     {
@@ -163,7 +163,7 @@ const products =[
         productType: "Accesorios",
         price: 200,
         rating: 5,
-        image:"https://i.ibb.co/7vpPXX7/soporte.png", 
+        image:"https://i.ibb.co/kcbNK0x/soporte-para-celular-moto.jpg", 
         description:"Soporte para celular en moto"
     },
 ];

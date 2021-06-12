@@ -68,7 +68,7 @@ export default function Navbar() {
           <IconButton arial-label="show cart items" color="primary">
           <Badge badgeContent={basket.length} color="secondary">
           
-          <ShoppingCart fontSize='large' color="inherit" />
+          <ShoppingCart fontSize='large' style={{color: "black"}} />
           
           </Badge>
           </IconButton>

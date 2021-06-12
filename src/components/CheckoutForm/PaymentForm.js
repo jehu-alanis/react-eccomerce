@@ -9,7 +9,7 @@ import {useStateValue} from "../../StateProvider";
 import accounting from "accounting";
 import axios from "axios";
 
-const stripePromise = loadStripe("pk_test_51IvatVHhSm5BF1EZbMl0AwHp4O4JPvOZpxRoqb2YIKGCF1l95BUn0Vl3Im2zi5QKjKFzy3amIiKaieEhr2iM4DvL00yMN8L6fj");
+const stripePromise = loadStripe("pk_live_51IvatVHhSm5BF1EZs47GocwaDJLLbloZXmeHGFtN0F3veJyMxNGfqBZBJKzR3T7K5oeGxuaz7gGDD4Dt1VTQDbgr00BvIpUgJb");
 
 const CARD_ELEMENT_OPTIONS = {
     iconStyle: "solid",

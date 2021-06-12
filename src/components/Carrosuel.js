@@ -1,28 +1,68 @@
 import React, { useState } from 'react';
+import {  makeStyles } from '@material-ui/core/styles';
 import {
   Carousel,
   CarouselItem,
   CarouselControl,
   CarouselIndicators,
-  
+  CarouselCaption
 } from 'reactstrap';
+import { Link  } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    flexGrow: 1,
+    marginBottom: "4rem",
+  },
+  appBar:{
+    backgroundColor: "#990000",
+    boxShadow: "none",
+  },
+  grow:{
+    flexGrow: 1,
+  },
+  button: {
+    marginRight: theme.spacing(2),
+    
+  },
+  
+  image: {
+    marginRight: "10px",
+    height: "3rem",
+  },
+  
+}));
 
 const items = [
   {
  
-  src: "https://i.ibb.co/WFBtmDF/arkadiaa.jpg",
+  src: "https://i.ibb.co/XC1btpw/ark-Taretas.jpg",
   altText: 'Arkadia',
+  caption: ''
     },
   {
-  src: "https://i.ibb.co/8004jks/ark.jpg",
-  altText: 'Arkadia Visitanos',
+  src: "https://i.ibb.co/WFBtmDF/arkadiaa.jpg",
+  altText: '',
+  caption: ''
     },
+    {
+      src: "https://i.ibb.co/28ngFxR/devoluciones.jpg",
+      altText: 'Arkadia Visitanos',
+      caption: <Link to='/devoluciones'  style={{ textDecoration: 'none' }}> 
+     <p style={{color: "black"}}>
+      
+     Checa Nuestra politica de devoluciones 
+      </p> 
+      </Link>
+        },
   
 ];
 
 const Carrosuel = (props) => {
+  const classes = useStyles();
   const [activeIndex, setActiveIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
 
@@ -52,7 +92,7 @@ const Carrosuel = (props) => {
         key={i}
       >
         <img src={item.src} alt="arkadia"  width="100%" height="300px" />
-       
+        <CarouselCaption  captionHeader={item.caption} />
       </CarouselItem>
      
     );

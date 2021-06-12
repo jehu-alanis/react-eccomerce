@@ -39,7 +39,7 @@ const useStyles = makeStyles((theme) => ({
 export default function CheckoutCard({product:{id, name, image, price, rating, }}) {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
-  const [dispatch] = useStateValue();
+  const [{basket},dispatch] = useStateValue();
 
  
   const removeItem = () => {
@@ -57,8 +57,9 @@ export default function CheckoutCard({product:{id, name, image, price, rating, }
           <Typography
           className={classes.action}
           variant='h5'
-          color='textSecondary'>
-          {accounting.formatMoney(price)}
+          color='textSecondary' >
+           { accounting.formatMoney(price)} 
+          
           </Typography>
         }
         title={name}
